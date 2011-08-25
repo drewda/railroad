@@ -1,7 +1,7 @@
 require 'rubygems'
 SPEC = Gem::Specification.new do |s|
   s.name         = "drewda-railroad"
-  s.version      = "0.5.0"
+  s.version      = "0.5.3"
   s.author       = "Drew Dara-Abrams"
   s.email        = "dda@dara-abrams.com"
   s.homepage     = "http://github.com/drewda"
