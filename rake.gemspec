@@ -1,10 +1,10 @@
 require 'rubygems'
 SPEC = Gem::Specification.new do |s|
-  s.name         = "tarikjn-railroad"
+  s.name         = "drewda-railroad"
   s.version      = "0.5.0"
-  s.author       = "Javier Smaldone"
-  s.email        = "javier@smaldone.com.ar"
-  s.homepage     = "http://github.com/tarikjn"
+  s.author       = "Drew Dara-Abrams"
+  s.email        = "dda@dara-abrams.com"
+  s.homepage     = "http://github.com/drewda"
   s.rubyforge_project = "railroad"
   s.platform     = Gem::Platform::RUBY
   s.summary      = "A DOT diagram generator for Ruby on Rail applications"
