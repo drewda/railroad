@@ -20,11 +20,8 @@ class ControllersDiagram < AppDiagram
     STDERR.print "Generating controllers diagram\n" if @options.verbose
 
     files = Dir.glob("app/controllers/**/*_controller.rb") - @options.exclude
-    files << 'app/controllers/application_controller.rb'
     files.each do |f|
       class_name = extract_class_name(f)
-      # ApplicationController's file is 'application.rb'
-      class_name += 'Controller' if class_name == 'Application'
       process_class class_name.constantize
     end 
   end # generate
